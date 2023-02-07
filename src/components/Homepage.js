@@ -26,7 +26,7 @@ const HomePage = () => {
           fontFamily: "'Exo', sans-serif",
         }}
       >
-        Try our most recent recipes
+        Vegan In Kuwait
       </h1>
       <div
         style={{

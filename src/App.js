@@ -13,6 +13,8 @@ import Homepage from "./components/Homepage";
 import NavBar from "./components/navBar/NavBar";
 import Nav from "./components/navBar/Nav";
 import MyRecipes from "./components/recipes/MyRecipes";
+import BlogList from "./components/blogs/BlogList";
+import About from "./components/About";
 function App() {
   return (
     <div>
@@ -28,12 +30,8 @@ function App() {
           element={<DetailedRecipe />}
         />
         <Route path="/create-recipe" element={<IngredientList />} />
-        {/* <Route
-          path={"/category/:categorySlug"}
-          element={<MemberDetails />}
-        /> */}
-        {/* <Route path={"/book-detail/:bookSlug"} element={<BookDetails />} /> */}
-        {/* <Route path={"/book-detail/:bookSlug"} element={<BookDetails />} /> */}
+        <Route path="/blog" elemnt={<BlogList />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

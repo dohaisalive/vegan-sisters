@@ -14,11 +14,7 @@ const Nav = () => {
         <div>
           <div className="pageHeader">
             <NavLink to="/">
-              <img
-                className="logo"
-                alt="foodiez"
-                src="./pics/colored-logo.png"
-              />
+              <img className="logo" alt="vegan-sisters" src="./pics/logo.png" />
             </NavLink>
             <div className="profile">
               <h3 className="hello-user">Hello {authStore.user.username} </h3>
@@ -33,11 +29,7 @@ const Nav = () => {
         <div>
           <div className="pageHeader">
             <NavLink to="/">
-              <img
-                className="logo"
-                alt="foodiez"
-                src="./pics/colored-logo.png"
-              />
+              <img className="logo" alt="foodiez" src="./pics/logo.png" />
             </NavLink>
             <div>
               <SignupModal />

@@ -7,14 +7,14 @@ const SignInNavBar = () => {
         <button className="all-or-mine">Home</button>
       </NavLink>
       <NavLink to="/all-recipes">
-        <button className="all-or-mine">All recipes</button>
+        <button className="all-or-mine">All Blog Posts</button>
       </NavLink>
 
       <NavLink to="/my-recipes">
-        <button className="all-or-mine">My recipes</button>
+        <button className="all-or-mine">My Blog Posts</button>
       </NavLink>
       <NavLink to="/create-recipe">
-        <button className="all-or-mine">Create recipe</button>
+        <button className="all-or-mine">Create Post</button>
       </NavLink>
     </div>
   );
