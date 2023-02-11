@@ -33,9 +33,9 @@ function IngredientList() {
   return (
     <>
       <div style={{ margin: "30px" }}>
-        <label className="form-sub-title">Choose your ingredients</label>
-        <div className="ingredient-list">{ingredientList}</div>
-        <AddIngredientForm />
+        {/* <label className="form-sub-title">Choose your ingredients</label> */}
+        {/* <div className="ingredient-list">{ingredientList}</div> */}
+        {/* <AddIngredientForm /> */}
         <RecipeSubmitForm checkedItems={checkedItems} disabled={disabled} />
       </div>
     </>

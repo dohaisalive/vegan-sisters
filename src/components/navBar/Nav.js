@@ -29,7 +29,7 @@ const Nav = () => {
         <div>
           <div className="pageHeader">
             <NavLink to="/">
-              <img className="logo" alt="foodiez" src="./pics/logo.png" />
+              <img className="logo" alt="vegan sisters" src="./pics/logo.png" />
             </NavLink>
             <div>
               <SignupModal />

@@ -23,20 +23,20 @@ const RecipeSubmitForm = ({ checkedItems, disabled }) => {
     event.preventDefault();
     console.log(input);
     recipeStore.createRecipe(input);
-    alert("Yum 😋! what a delicious meal , recipe was created successfully.");
+    alert("blog was created successfully :)");
   };
 
   return (
     <form onSubmit={handleSubmit} className="create-recipe-form">
       <label className="create-recipe-label">
-        <p className="form-sub-title">Recipe Name:</p>
+        <p className="form-sub-title">Post title:</p>
         <input
           placeholder="Your title..."
           className="text-ingredient"
           type="text"
           name="name"
           onChange={handleChange}
-          required 
+          required
         />
       </label>
       <label className="create-recipe-label">
@@ -47,10 +47,10 @@ const RecipeSubmitForm = ({ checkedItems, disabled }) => {
           type="text"
           name="image"
           onChange={handleChange}
-          required 
+          required
         />
       </label>
-      <label className="create-recipe-label">
+      {/* <label className="create-recipe-label">
         <p className="form-sub-title">Time to Prepare:</p>
         <input
           placeholder="In minutes..."
@@ -58,17 +58,17 @@ const RecipeSubmitForm = ({ checkedItems, disabled }) => {
           type="number"
           name="ttp"
           onChange={handleChange}
-          required 
+          required
         />
-      </label>
+      </label> */}
       <label className="create-recipe-label">
-        <p className="form-sub-title">Steps:</p>
+        <p className="form-sub-title">Body:</p>
         <textarea
-          placeholder="Step1. Step2. ..."
+          placeholder="tell the world!"
           name="steps"
           className="text-ingredient"
           onChange={handleChange}
-          required 
+          required
         />
       </label>
       <label className="create-recipe-label">
@@ -80,7 +80,7 @@ const RecipeSubmitForm = ({ checkedItems, disabled }) => {
         className="submit-form"
         type="submit"
         onClick={handleIngredients}
-        disabled={disabled}
+        // disabled={disabled}
       />
     </form>
   );

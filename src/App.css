@@ -1,10 +1,10 @@
 
 :root {
-  --background-color: #965eb7;
+  --background-color: #6db452;
   --box-shadow: 4px 4px 4px rgba(77, 77, 77, 0.25);
 }
 .modaltitle{
-color:#965eb7;
+color:#6db452;
 }
 
 .scrollBorrow{
@@ -50,7 +50,7 @@ color:#965eb7;
 .userButtons{
   margin-left: 7px;
   margin-right: 7px;
-  background-color: #ffc400;
+  background-color: #6db452;
   border-radius: 10px;
   height:40px;
   font-weight: bold;
@@ -59,7 +59,7 @@ color:#965eb7;
 
 .signoutButton{
 background-color: rgba(255, 255, 255, 0);
-color: #ffc400;
+color: #6db452;
 position:relative;
 font-size: 14px;
 font-weight:bold;
@@ -95,13 +95,13 @@ justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 39px;
-  background-color: #965eb7;
+  background-color: #6db452;
   /* background-color: #926BA8; */
 }
 
 .all-or-mine {
   margin-left:50px;
-  background-color: #965eb7;
+  background-color: #6db452;
   font-weight: bold;
   color: #ffffff;
   font-size: 16px;
@@ -160,11 +160,11 @@ justify-content: flex-start;
 }
 .category-item:hover{
   color: white;
-  background-color: #926BA8;
+  background-color: #6db452;
 }
 .category-item:focus{
   color: white;
-  background-color: #926BA8;
+  background-color: #6db452;
 }
 
 .recipe-details-card {
@@ -286,7 +286,7 @@ justify-content: flex-start;
 
 /* need to modify or delete this */
 button {
-  background-color: #926BA8 ;
+  background-color: #6db452 ;
   border: none;
   color: white;
   font-size: 16px;
@@ -299,7 +299,7 @@ label {
 
 .submit-form{
   font-weight: bold;
-  background-color: #04AA6D;
+  background-color: #6db452;
   color: white;
   padding: 12px 20px;
   margin-left: 810px;
@@ -318,7 +318,7 @@ label {
 
 .submit-ingredient{
   font-weight: bold;
-  background-color: #04AA6D;
+  background-color: #6db452;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -367,12 +367,12 @@ textarea {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffc300;
+  background: #6db452;
   border-radius: 5px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e8c142;
+  background: #6db452;
 }
 
 .ingredient-list-filter{
@@ -411,7 +411,7 @@ border-radius: 10px;
 }
 
 .Ingredient-filter-button{
-  background-color: #ffc400;
+  background-color: #6db452;
 position:relative;
 font-size: 14px;
 font-weight:bold;

@@ -30,23 +30,23 @@ function DetailedRecipe() {
         <div className="recipe-details-content">
           <>
             <div style={{ display: "flex", alignItems: "center" }}>
-              <p className="sub-title">⏰ Total time: </p>
+              {/* <p className="sub-title">⏰ Total time: </p>
               <p
                 className="recipe-details-ingredirents"
                 style={{ position: "relative", left: "10px" }}
               >
                 {" "}
                 {recipe.ttp} minutes.
-              </p>
+              </p> */}
             </div>
 
-            <p className="sub-title">🥗 Ingredients:</p>
+            {/* <p className="sub-title">🥗 Ingredients:</p>
             <p className="recipe-details-ingredirents">
               {recipeIngredients.join(" - ")}
-            </p>
+            </p> */}
           </>
           <>
-            <p className="sub-title">📝 Steps:</p>
+            {/* <p className="sub-title">📝 Steps:</p> */}
             {organizedSteps}
           </>
         </div>

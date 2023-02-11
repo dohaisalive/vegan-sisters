@@ -19,7 +19,7 @@ const AddIngredientForm = () => {
     <>
       <form action="action_page.php">
         <div className="add-ingredient">
-          <label className="form-sub-title">New ingredient:</label>
+          {/* <label className="form-sub-title">New ingredient:</label>
 
           <input
             onChange={handleChange}
@@ -37,7 +37,7 @@ const AddIngredientForm = () => {
             className="submit-ingredient"
             onClick={handleSubmit}
             value="Add"
-          />
+          /> */}
         </div>
       </form>
     </>

@@ -9,7 +9,7 @@ const NavBar = () => {
       <NavLink to="/blog">
         <button className="all-or-mine">Blog</button>
       </NavLink>
-      <NavLink to="/recipes">
+      <NavLink to="/vegan-in-kuwait">
         <button className="all-or-mine">Vegan In Kuwait</button>
       </NavLink>
       <NavLink to="/about">
