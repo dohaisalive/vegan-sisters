@@ -16,6 +16,12 @@ const SignInNavBar = () => {
       <NavLink to="/create-post">
         <button className="all-or-mine">Create Post</button>
       </NavLink>
+      <NavLink to="/add-restaurant">
+        <button className="all-or-mine">Add restaurant</button>
+      </NavLink>
+      <NavLink to="/all-restaurants">
+        <button className="all-or-mine">All restaurants</button>
+      </NavLink>
     </div>
   );
 };
